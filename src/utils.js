@@ -1,4 +1,4 @@
-export function getRandomInt(max = 10) {
+export function getRandomInt(max = 100) {
   return Math.floor(Math.random() * max);
 }
 
