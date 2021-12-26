@@ -13,7 +13,7 @@
   height: 3%;
 }
 
-.container header nav ul{
+.container header nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
@@ -24,6 +24,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.container .wrapper .box {
+  padding: 10px;
+  margin: 30%;
+  background-color: green;
 }
 
 .container .wrapper .random_number {
