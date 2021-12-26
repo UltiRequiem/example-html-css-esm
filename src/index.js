@@ -1,8 +1,4 @@
-import { getAverage, getRandomInt } from "./utils.js";
-
-function getCoolNumber() {
-  return getAverage(getRandomInt(), getRandomInt());
-}
+import getCoolNumber from "./utils.js";
 
 const text = document.getElementById("text");
 
