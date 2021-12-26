@@ -1,5 +1,5 @@
-export function getRandomInt(max = 100) {
-  return Math.floor(Math.random() * max);
+export function getRandomInt() {
+  return Math.floor(Math.random() * 100);
 }
 
 export function getAverage(...arr) {
@@ -7,5 +7,5 @@ export function getAverage(...arr) {
 }
 
 export default function getCoolNumber() {
-  return getAverage(...new Array({ length: 50 }).map(() => getRandomInt()));
+  return getAverage(...new Array({ length: 50 }).map(getRandomInt));
 }
