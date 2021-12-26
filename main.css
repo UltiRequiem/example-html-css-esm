@@ -1,3 +1,29 @@
-html {
+* {
+  margin: 0;
+}
+
+.container {
+  text-align: center;
   background-color: red;
+  height: 100vh;
+}
+
+.container .wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container .wrapper .random_number {
+  font-size: 5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.container .footer {
+  background-color: blue;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
