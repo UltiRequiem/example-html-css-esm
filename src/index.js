@@ -4,6 +4,6 @@ function getCoolNumber() {
   return getAverage(getRandomInt(), getRandomInt());
 }
 
-setInterval(() => {
-  document.getElementById("text").innerHTML = getCoolNumber();
-}, 500);
+const text = document.getElementById("text");
+
+setInterval(() => (text.innerHTML = getCoolNumber()), 150);
