@@ -8,5 +8,5 @@ export function getAverage(...arr) {
 
 /** @returns A Super Duper Random Number */
 export default function getCoolNumber() {
-  return getAverage(...new Array({ length: 50 }).map(getRandomInt));
+  return getAverage(...new Array({ length: 50 }, getRandomInt));
 }
