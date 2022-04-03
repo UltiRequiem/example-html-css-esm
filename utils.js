@@ -1,12 +1,12 @@
-export function getRandomInt() {
+export function rndomInt() {
   return Math.floor(Math.random() * 100);
 }
 
-export function getAverage(...arr) {
+export function average(...arr) {
   return arr.reduce((a, b) => a + b, 0) / arr.length;
 }
 
 /** @returns A Super Duper Random Number */
-export default function getCoolNumber() {
+export function coolNumber() {
   return getAverage(...new Array({ length: 50 }, getRandomInt));
 }
