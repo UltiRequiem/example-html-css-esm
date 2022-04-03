@@ -1,4 +1,4 @@
-import getCoolNumber from "./utils.js";
+import { coolNumber } from "./utils.js";
 
 const text = document.getElementById("text");
 
