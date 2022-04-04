@@ -3,5 +3,5 @@ import { coolNumber } from "./utils.js";
 const text = document.getElementById("text");
 
 setInterval(() => {
-  text.innerHTML = getCoolNumber();
+  text.innerHTML = coolNumber();
 }, 150);
