@@ -2,58 +2,36 @@
   margin: 0;
 }
 
-.container {
-  text-align: center;
-  background-color: red;
-  height: 100vh;
-}
+main {
+  background-color: rgb(236, 152, 42);
 
-.container header {
-  background-color: gray;
-  height: 5%;
-  padding-top: 3%;
-}
-
-.container header nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-}
-
-.container .wrapper {
-  height: 90%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  gap: 20%;
+
+  height: 100vh;
 }
 
-.container .wrapper .box {
+button {
+  border: none;
+  border-radius: 10px;
   padding: 10px;
-  margin: 30%;
-  background-color: green;
-}
-
-.container .wrapper .random_number {
-  font-size: 5rem;
+  font-size: 2rem;
   font-weight: bold;
-  color: white;
+  cursor: pointer;
 }
 
-.container .footer {
-  background-color: blue;
-  position: absolute;
-  padding-top: 3%;
-  height: 10%;
-  width: 100%;
-  bottom: 0;
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-a::after {
-  color: white;
-  font-size: 2em;
-}
-
-a {
-  color: white;
-  font-size: 2em;
+#randomNumber {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px;
 }

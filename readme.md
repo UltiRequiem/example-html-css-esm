@@ -5,11 +5,17 @@ ESM.
 
 ## Deploy
 
-https://ultirequiem.github.io/example-html-css-esm
+### GH Pages 🐱
+
+https://ulti.js.org/example-html-css-esm
+
+### Cloudflare Workers 👷‍♀️
+
+https://esm.pages.dev
 
 ## Development
 
-If you have [Node.js](https://nodejs.org) installed
+If you have [Node.js](https://nodejs.org) installed 👇
 
 ```sh
 npx live-server .
